@@ -38,7 +38,7 @@ gradle.projectsEvaluated {
         } else if (project.hasProperty('nodeModulesPath')) {
             nodeModulesPath = project.nodeModulesPath
         } else {
-            nodeModulesPath = "../../node_modules";
+            nodeModulesPath = "../../../../node_modules";
         }
 
         def targetName = variant.name.capitalize()
